@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE440CC81FAD550300558603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CC71FAD550300558603 /* AppDelegate.swift */; };
+		BE440CCA1FAD550300558603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CC91FAD550300558603 /* ViewController.swift */; };
+		BE440CCD1FAD550300558603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE440CCB1FAD550300558603 /* Main.storyboard */; };
+		BE440CCF1FAD550300558603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE440CCE1FAD550300558603 /* Assets.xcassets */; };
+		BE440CD21FAD550300558603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE440CD01FAD550300558603 /* LaunchScreen.storyboard */; };
+		BE440CDD1FAD550300558603 /* NumberTouchGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CDC1FAD550300558603 /* NumberTouchGameAppTests.swift */; };
+		BE440CE81FAD550300558603 /* NumberTouchGameAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CE71FAD550300558603 /* NumberTouchGameAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE440CD91FAD550300558603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE440CBC1FAD550200558603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE440CC31FAD550300558603;
+			remoteInfo = NumberTouchGameApp;
+		};
+		BE440CE41FAD550300558603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE440CBC1FAD550200558603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE440CC31FAD550300558603;
+			remoteInfo = NumberTouchGameApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE440CC41FAD550300558603 /* NumberTouchGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTouchGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE440CC71FAD550300558603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE440CC91FAD550300558603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE440CCC1FAD550300558603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE440CCE1FAD550300558603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE440CD11FAD550300558603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE440CD31FAD550300558603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE440CD81FAD550300558603 /* NumberTouchGameAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTouchGameAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE440CDC1FAD550300558603 /* NumberTouchGameAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTouchGameAppTests.swift; sourceTree = "<group>"; };
+		BE440CDE1FAD550300558603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE440CE31FAD550300558603 /* NumberTouchGameAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTouchGameAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE440CE71FAD550300558603 /* NumberTouchGameAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTouchGameAppUITests.swift; sourceTree = "<group>"; };
+		BE440CE91FAD550300558603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE440CC11FAD550300558603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CD51FAD550300558603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CE01FAD550300558603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE440CBB1FAD550200558603 = {
+			isa = PBXGroup;
+			children = (
+				BE440CC61FAD550300558603 /* NumberTouchGameApp */,
+				BE440CDB1FAD550300558603 /* NumberTouchGameAppTests */,
+				BE440CE61FAD550300558603 /* NumberTouchGameAppUITests */,
+				BE440CC51FAD550300558603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE440CC51FAD550300558603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE440CC41FAD550300558603 /* NumberTouchGameApp.app */,
+				BE440CD81FAD550300558603 /* NumberTouchGameAppTests.xctest */,
+				BE440CE31FAD550300558603 /* NumberTouchGameAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE440CC61FAD550300558603 /* NumberTouchGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE440CC71FAD550300558603 /* AppDelegate.swift */,
+				BE440CC91FAD550300558603 /* ViewController.swift */,
+				BE440CCB1FAD550300558603 /* Main.storyboard */,
+				BE440CCE1FAD550300558603 /* Assets.xcassets */,
+				BE440CD01FAD550300558603 /* LaunchScreen.storyboard */,
+				BE440CD31FAD550300558603 /* Info.plist */,
+			);
+			path = NumberTouchGameApp;
+			sourceTree = "<group>";
+		};
+		BE440CDB1FAD550300558603 /* NumberTouchGameAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE440CDC1FAD550300558603 /* NumberTouchGameAppTests.swift */,
+				BE440CDE1FAD550300558603 /* Info.plist */,
+			);
+			path = NumberTouchGameAppTests;
+			sourceTree = "<group>";
+		};
+		BE440CE61FAD550300558603 /* NumberTouchGameAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE440CE71FAD550300558603 /* NumberTouchGameAppUITests.swift */,
+				BE440CE91FAD550300558603 /* Info.plist */,
+			);
+			path = NumberTouchGameAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE440CC31FAD550300558603 /* NumberTouchGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE440CEC1FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameApp" */;
+			buildPhases = (
+				BE440CC01FAD550300558603 /* Sources */,
+				BE440CC11FAD550300558603 /* Frameworks */,
+				BE440CC21FAD550300558603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberTouchGameApp;
+			productName = NumberTouchGameApp;
+			productReference = BE440CC41FAD550300558603 /* NumberTouchGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE440CD71FAD550300558603 /* NumberTouchGameAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE440CEF1FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameAppTests" */;
+			buildPhases = (
+				BE440CD41FAD550300558603 /* Sources */,
+				BE440CD51FAD550300558603 /* Frameworks */,
+				BE440CD61FAD550300558603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE440CDA1FAD550300558603 /* PBXTargetDependency */,
+			);
+			name = NumberTouchGameAppTests;
+			productName = NumberTouchGameAppTests;
+			productReference = BE440CD81FAD550300558603 /* NumberTouchGameAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE440CE21FAD550300558603 /* NumberTouchGameAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE440CF21FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameAppUITests" */;
+			buildPhases = (
+				BE440CDF1FAD550300558603 /* Sources */,
+				BE440CE01FAD550300558603 /* Frameworks */,
+				BE440CE11FAD550300558603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE440CE51FAD550300558603 /* PBXTargetDependency */,
+			);
+			name = NumberTouchGameAppUITests;
+			productName = NumberTouchGameAppUITests;
+			productReference = BE440CE31FAD550300558603 /* NumberTouchGameAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE440CBC1FAD550200558603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Life is Tech";
+				TargetAttributes = {
+					BE440CC31FAD550300558603 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE440CD71FAD550300558603 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE440CC31FAD550300558603;
+					};
+					BE440CE21FAD550300558603 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE440CC31FAD550300558603;
+					};
+				};
+			};
+			buildConfigurationList = BE440CBF1FAD550200558603 /* Build configuration list for PBXProject "NumberTouchGameApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE440CBB1FAD550200558603;
+			productRefGroup = BE440CC51FAD550300558603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE440CC31FAD550300558603 /* NumberTouchGameApp */,
+				BE440CD71FAD550300558603 /* NumberTouchGameAppTests */,
+				BE440CE21FAD550300558603 /* NumberTouchGameAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE440CC21FAD550300558603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE440CD21FAD550300558603 /* LaunchScreen.storyboard in Resources */,
+				BE440CCF1FAD550300558603 /* Assets.xcassets in Resources */,
+				BE440CCD1FAD550300558603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CD61FAD550300558603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CE11FAD550300558603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE440CC01FAD550300558603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE440CCA1FAD550300558603 /* ViewController.swift in Sources */,
+				BE440CC81FAD550300558603 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CD41FAD550300558603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE440CDD1FAD550300558603 /* NumberTouchGameAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE440CDF1FAD550300558603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE440CE81FAD550300558603 /* NumberTouchGameAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE440CDA1FAD550300558603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE440CC31FAD550300558603 /* NumberTouchGameApp */;
+			targetProxy = BE440CD91FAD550300558603 /* PBXContainerItemProxy */;
+		};
+		BE440CE51FAD550300558603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE440CC31FAD550300558603 /* NumberTouchGameApp */;
+			targetProxy = BE440CE41FAD550300558603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE440CCB1FAD550300558603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE440CCC1FAD550300558603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE440CD01FAD550300558603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE440CD11FAD550300558603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE440CEA1FAD550300558603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE440CEB1FAD550300558603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE440CED1FAD550300558603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE440CEE1FAD550300558603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE440CF01FAD550300558603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberTouchGameApp.app/NumberTouchGameApp";
+			};
+			name = Debug;
+		};
+		BE440CF11FAD550300558603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberTouchGameApp.app/NumberTouchGameApp";
+			};
+			name = Release;
+		};
+		BE440CF31FAD550300558603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberTouchGameApp;
+			};
+			name = Debug;
+		};
+		BE440CF41FAD550300558603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQADZ5375G;
+				INFOPLIST_FILE = NumberTouchGameAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberTouchGameApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE440CBF1FAD550200558603 /* Build configuration list for PBXProject "NumberTouchGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE440CEA1FAD550300558603 /* Debug */,
+				BE440CEB1FAD550300558603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE440CEC1FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE440CED1FAD550300558603 /* Debug */,
+				BE440CEE1FAD550300558603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE440CEF1FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE440CF01FAD550300558603 /* Debug */,
+				BE440CF11FAD550300558603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE440CF21FAD550300558603 /* Build configuration list for PBXNativeTarget "NumberTouchGameAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE440CF31FAD550300558603 /* Debug */,
+				BE440CF41FAD550300558603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE440CBC1FAD550200558603 /* Project object */;
+}
