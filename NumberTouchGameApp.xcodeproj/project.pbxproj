@@ -14,6 +14,8 @@
 		BE440CD21FAD550300558603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE440CD01FAD550300558603 /* LaunchScreen.storyboard */; };
 		BE440CDD1FAD550300558603 /* NumberTouchGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CDC1FAD550300558603 /* NumberTouchGameAppTests.swift */; };
 		BE440CE81FAD550300558603 /* NumberTouchGameAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CE71FAD550300558603 /* NumberTouchGameAppUITests.swift */; };
+		BE440CF61FAD559D00558603 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE440CF51FAD559D00558603 /* icon.png */; };
+		BE440CF81FAD9B8400558603 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE440CF71FAD9B8400558603 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BE440CE31FAD550300558603 /* NumberTouchGameAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTouchGameAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE440CE71FAD550300558603 /* NumberTouchGameAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTouchGameAppUITests.swift; sourceTree = "<group>"; };
 		BE440CE91FAD550300558603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE440CF51FAD559D00558603 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BE440CF71FAD9B8400558603 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				BE440CC71FAD550300558603 /* AppDelegate.swift */,
+				BE440CF51FAD559D00558603 /* icon.png */,
+				BE440CF71FAD9B8400558603 /* ResultViewController.swift */,
 				BE440CC91FAD550300558603 /* ViewController.swift */,
 				BE440CCB1FAD550300558603 /* Main.storyboard */,
 				BE440CCE1FAD550300558603 /* Assets.xcassets */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE440CF61FAD559D00558603 /* icon.png in Resources */,
 				BE440CD21FAD550300558603 /* LaunchScreen.storyboard in Resources */,
 				BE440CCF1FAD550300558603 /* Assets.xcassets in Resources */,
 				BE440CCD1FAD550300558603 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			files = (
 				BE440CCA1FAD550300558603 /* ViewController.swift in Sources */,
 				BE440CC81FAD550300558603 /* AppDelegate.swift in Sources */,
+				BE440CF81FAD9B8400558603 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQADZ5375G;
 				INFOPLIST_FILE = NumberTouchGameApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQADZ5375G;
 				INFOPLIST_FILE = NumberTouchGameApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.NumberTouchGameApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
