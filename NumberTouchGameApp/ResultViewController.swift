@@ -13,10 +13,10 @@ var allKaisuu = 0
 
 class ResultViewController: UIViewController {
     
-    
     @IBOutlet var kaisuuLabel: UILabel!
     @IBOutlet var maxLevelLabel: UILabel!
-
+    @IBOutlet var ansLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +24,11 @@ class ResultViewController: UIViewController {
             maxLevel = nankai
         }
         
+        if ((maxLevel == nankai) && (allKaisuu != 0)) {
+            self.view.backgroundColor = UIColor(red:0, green:255, blue:255, alpha:0.01)
+        }
+        
+        ansLabel.text = "答えは\(globalAnsNum)です。"
         kaisuuLabel.text = "\(nankai)回目で正解しました"
         if (allKaisuu > 0) {
             maxLevelLabel.text = "これまでの最短記録は\(maxLevel)です"
@@ -39,6 +44,7 @@ class ResultViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
     /*
     // MARK: - Navigation
