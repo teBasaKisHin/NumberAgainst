@@ -9,17 +9,24 @@
 import UIKit
 
 var nankai: Int = 1
+// 最大の数
+let maxNum = 20
+// 最小の数
+let minNum = 0
 
 class ViewController: UIViewController, UITextFieldDelegate{
     
-    // 正解の数を乱数を使って作り出す
-    let ansNum = arc4random_uniform(10)
     // 正解の数より小さい数を入れる
     var underAns: Int = 0
     // 正解の数より大きい数を入れる
-    var upperAns: Int = 10
+    var upperAns: Int = 20
     
-    var inputNum: Int = 5
+    // 入力された数を入れる
+    var inputNum: Int = 10
+
+    
+    // 正解の数を乱数を使って作り出す
+    let ansNum = arc4random_uniform(21)
     
     // 範囲のラベル
     @IBOutlet var hanniLabel: UILabel!
@@ -27,21 +34,28 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     // 決定ボタン
     @IBAction func ketteiBtn() {
-        if (inputNum > ansNum) && (inputNum < upperAns) {
-            upperAns = inputNum
-        } else if (inputNum < ansNum) && (inputNum > underAns ) {
-            underAns = inputNum
+        print(ansNum)
+        if (inputNum > ansNum) && (inputNum <= upperAns) {
+            upperAns = inputNum - 1
+        } else if (inputNum < ansNum) && (inputNum >= underAns ) {
+            underAns = inputNum + 1
         } else if (inputNum == ansNum) {
             let next = storyboard!.instantiateViewController(withIdentifier: "ansStory")
             self.present(next,animated: true, completion: nil)
         }
         nankai += 1
-        hanniLabel.text = "\(upperAns)から\(underAns)の数字を入力してね"
+        
+        if(upperAns == underAns) {
+            hanniLabel.text = "答えは\(upperAns)だね"
+        } else {
+            hanniLabel.text = "\(upperAns)から\(underAns)の数字を入力してね"
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        hanniLabel.text = "\(maxNum)から\(minNum)を入力してください。"
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,18 +64,17 @@ class ViewController: UIViewController, UITextFieldDelegate{
     }
 
     @IBAction func plusBtn() {
-        if inputNum < 10 {
+        if inputNum < maxNum {
             inputNum += 1
         }
         ansLabel.text = String(inputNum)
     }
     
     @IBAction func minusBtn() {
-        if inputNum > 0 {
+        if inputNum > minNum {
             inputNum -= 1
         }
         ansLabel.text = String(inputNum)
     }
 
 }
-

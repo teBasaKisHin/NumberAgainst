@@ -8,15 +8,29 @@
 
 import UIKit
 
+var maxLevel :Int = 30
+var allKaisuu = 0
+
 class ResultViewController: UIViewController {
     
+    
     @IBOutlet var kaisuuLabel: UILabel!
+    @IBOutlet var maxLevelLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        kaisuuLabel.text = "\(nankai)回目で正解しました"
+        if (maxLevel > nankai) {
+            maxLevel = nankai
+        }
         
+        kaisuuLabel.text = "\(nankai)回目で正解しました"
+        if (allKaisuu > 0) {
+            maxLevelLabel.text = "これまでの最短記録は\(maxLevel)です"
+        }
+        
+        allKaisuu += 1
+        nankai = 0
         
         // Do any additional setup after loading the view.
     }
